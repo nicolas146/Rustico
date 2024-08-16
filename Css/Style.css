@@ -8,8 +8,6 @@ color-cuarto: #B257EA
     background-color: #E8CB74;
     font-size: 20px;
     font-family:fantasy
-    background: url(../Imagenes/Remera-hombre-topper-basica-urban-1656805370-0-0.jpg);
-    background-image: cover;
 }
 
 .lista{
@@ -79,6 +77,15 @@ color: black
 .ropa{
     background: url(../Imagenes/flores.jpg);
     background-image: cover;
+}
+
+.Footer{
+    background: url(../Imagenes/flores.jpg);
+    background-image: cover;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
 }
 
 
