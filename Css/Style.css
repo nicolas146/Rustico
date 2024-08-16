@@ -1,0 +1,93 @@
+/*
+color-primario: #E8CB74
+color-secundario: #7491E8
+color-terciario: #EB1809
+color-cuarto: #B257EA
+*/
+.my-hola-mundo{
+    background-color: #E8CB74;
+    font-size: 20px;
+    font-family:fantasy
+    background: url(../Imagenes/Remera-hombre-topper-basica-urban-1656805370-0-0.jpg);
+    background-image: cover;
+}
+
+.lista{
+    color:#B257EA;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mi-formulario{
+    color: #7491E8;
+    font-size: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: auto;
+}
+
+.clase1{
+    width: 50%;
+    height: 50vh;
+    background-color: red;
+    padding: 20px;
+}
+.clase2{
+    margin-top: 10px; 
+    width: 45%;
+    height: 40vh;
+    background-color:aqua;
+    padding: 20px; ;
+}
+.clase3{
+    width: 40%;
+    height: 40vh;
+    background-color: black; 
+    padding: 20px; ;
+}
+.clase4{
+    width: 35%;
+    height: 20vh;
+    background-color:blue; 
+    padding: 20%;
+}
+
+.Elementopadre{
+    list-style-type: none;
+    padding: 0%;
+    border: 1px solid black;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.Elementopadre li{
+    border: 1px solid brown;
+    padding: 5px;
+}
+
+.Elemento1{
+    background-color: #B257EA;
+    color: #E8CB74;
+    flex-grow:5;
+}
+
+.Elemento2{
+background-color:aquamarine 
+color: black
+}
+
+.ropa{
+    background: url(../Imagenes/flores.jpg);
+    background-image: cover;
+}
+
+
+@media (min-width: 992px){
+    .Elementopadre{
+        display: flex;
+        flex-direction: row;
+        background-color: violet;
+    }
+  }
+
+  
